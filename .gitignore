@@ -1,0 +1,29 @@
+# Ключи и секреты
+*.key
+*.pem
+*.bin
+*.srl
+master.key
+tgs_key.bin
+*_keys.json
+
+# Базы данных, которые создаются при работе
+client_db.json
+service_keys.json
+revoked_tickets.json
+FileServer.key
+MailServer.key
+
+# Временные файлы Python
+__pycache__/
+*.pyc
+
+# Файлы IDE и системы
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Бэкапы
+backup/
+*.bak
