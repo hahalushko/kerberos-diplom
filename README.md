@@ -18,19 +18,19 @@
 ## Администрирование
 `python admin_client.py list-users`
 
-# Просмотр пользователей
+### Просмотр пользователей
 `python admin_client.py list-users`
 
-# Смена роли пользователя john на admin
+### Смена роли пользователя john на admin
 `python admin_client.py change-role john admin`
 
-# Удаление пользователя alice (с подтверждением)
+### Удаление пользователя alice (с подтверждением)
 `python admin_client.py delete-user alice`
 
-# Список сервисов
+### Список сервисов
 `python admin_client.py list-services`
 
-# Отзыв билета
+### Отзыв билета
 `python admin_client.py revoke-ticket --ticket-id a1b2c3d4e5f6... --expires 1712345678`
 
 ## Примечание
