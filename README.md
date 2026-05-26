@@ -16,7 +16,6 @@
 5. `python client.py` – интерактивный клиент
 
 ## Администрирование
-`python admin_client.py list-users`
 
 ### Просмотр пользователей
 `python admin_client.py list-users`
